@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>双十一购物节</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 双十一购物狂欢</h1>
+        <div class="countdown">
+            <h3>距离活动开始</h3>
+            <div id="time"></div>
+        </div>
+        <div class="goods-list" id="goodsList"></div>
+        <div class="cart">
+            <h3>🛒 购物车</h3>
+            <div id="cartList"></div>
+            <p>总价：<span id="total">0</span> 元</p>
+            <p>满200减30，优惠后：<span id="afterDiscount">0</span> 元</p>
+            <button onclick="clearCart()">清空购物车</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
